@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin-top: 200px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-items: center;
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            padding: 10px;
+            border-radius: 10px;
+            background: black;
+            color: white;
+            margin: 10px;
+        }
+         button:hover{
+            background-color: rgba(29, 27, 27, 0.815);
+         }
+         p{
+            width: 95%;
+            margin: 10px;
+            padding: 10px;
+            background-color: rgb(233, 216, 216);
+         }
+         .container{
+            width: 700px;
+            margin: 10px;
+         }
+         label{
+            margin: 10px;
+         }
+         input{
+            width: 89%;
+            padding: 20px;
+            margin: 10px;
+            border: none;
+            border-bottom: solid 3px rgb(73, 62, 62);
+            background: rgb(231, 233, 235);
+            border-radius: 20px 20px 0 0;
+         }
+         input:hover{
+            background-color: rgb(219, 222, 224);
+            font-weight: bold;
+         }
+         .dic{
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            background: wheat;
+            border-left: solid 1px;
+            border-right: solid 1px;
+         }
+         h4{
+            width: 100%;
+            border-top: solid 1px;
+            border-bottom: solid 1px;
+         }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <label for="CNPJ">DIGITE UM CNPJ!</label>
+    <input type="text" id="verificar">
+    <div class="dic">
+        <h4>ALGUNS CNPJs</h4>
+        <div>
+        36149557000136---28156214000170---02819125000173---73004715000196---
+        62065578000183---33764366000196---32461816000109---58506221000116---
+        47675871000179---35754969000132---29384013000193---61729133000198---
+        61777819000154---29162769000198---35028018000186---49951411000151---
+        08030140000114---92904960000102---
+        </div>
+    </div>
+    <button onclick="buscar()">buscar</button>
+    <br>
+    <P id="resposta"></P>
+    <script src="cep.js"></script>
+    </div>
+</body>
+</html>
