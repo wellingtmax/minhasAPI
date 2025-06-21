@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Busca de Livros - OpenLibrary</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        justify-items: center;
+        padding: 20px;
+        background: black;
+        background-image: url(img/photo-1568667256549-094345857637.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    h1{
+        color: rgb(255, 255, 255);
+        padding: 20px;
+    }
+    input{
+        padding: 10px;
+        border: none;
+        border-bottom: solid 1px blue;
+        background: rgb(245, 234, 213);
+        border-radius: 10px 10px 0 0;
+    }
+     input:hover{
+        background-color: wheat;
+     }
+     button{
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        background: rgb(7, 7, 92);
+        color: white;
+        box-shadow: 2px 2px 3px wheat;
+     }
+      button:hover{
+        background: rgb(12, 12, 209);
+      }
+    #resultado{
+      justify-items: center;
+        color: rgb(255, 255, 255);
+        background: rgba(0, 0, 0, 0.733);
+    }
+</style>
+<body>
+  <h1>Buscar Livro por Nome</h1>
+
+  <input type="text" id="tituloInput" placeholder="Digite o nome do livro">
+  <button onclick="buscarLivro()">Buscar</button>
+
+  <div id="resultado"></div>
+
+  <!-- Link para o arquivo JavaScript -->
+  <script src="livros.js"></script>
+</body>
+</html>
+
