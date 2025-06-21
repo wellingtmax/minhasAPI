@@ -1,0 +1,79 @@
+[
+    {
+        "name": "João",
+        "age": 30,
+        "city": "São Paulo",
+        "email": "joao@example.com",
+        "CPF": "123.456.789-00"
+    },
+    {
+        "name": "Maria",
+        "age": 25,
+        "city": "Rio de Janeiro",
+        "email": "maria@example.com",
+        "CPF": "234.567.890-01"
+    },
+    {
+        "name": "Pedro",
+        "age": 40,
+        "city": "Belo Horizonte",
+        "email": "pedro@example.com",
+        "CPF": "345.678.901-02" 
+    },
+    {
+        "name": "Ana",
+        "age": 22,
+        "city": "Curitiba",
+        "email": "ana@example.com",
+        "CPF": "456.789.012-03"
+    },
+    {
+        "name": "Lucas",
+        "age": 35,
+        "city": "São Paulo",
+        "email": "lucas@example.com",
+        "CPF": "567.890.123-04" 
+    },
+    {
+        "name": "Carla",
+        "age": 28,
+        "city": "São Paulo",
+        "email": "carla@example.com",
+        "CPF": "678.901.234-05"
+    },
+    {
+        "name": "Roberto",
+        "age": 50,
+        "city": "Belo Horizonte",
+        "email": "roberto@example.com",
+        "CPF": "789.012.345-06" 
+    },
+    {
+        "name": "Fernanda",
+        "age": 32,
+        "city": "São Paulo",
+        "email": "fernanda@example.com",
+        "CPF": "890.123.456-07"
+    },
+    {
+        "name": "Mariana",
+        "age": 27,
+        "city": "São Paulo",
+        "email": "mariana@example.com",
+        "CPF": "901.234.567-08" 
+    },
+    {
+        "name": "Ricardo",
+        "age": 45,
+        "city": "São Paulo",
+        "email": "ricardo@example.com",
+        "CPF": "012.345.678-90"
+    },
+    {
+        "name": "Sofia",
+        "age": 29,
+        "city": "São Paulo",
+        "email": "sofia@example.com",
+        "CPF": "123.456.789-01" 
+    }
+]

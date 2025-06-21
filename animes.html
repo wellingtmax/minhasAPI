@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Animes</title>
+  <style>
+    .card {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 10px;
+      margin: 10px;
+      width: 200px;
+      display: inline-block;
+      vertical-align: top;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+      background-color: #f9f9f9;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    .card h2 {
+      font-size: 1.2em;
+      margin: 10px 0 5px 0;
+    }
+
+    .card p {
+      font-size: 1em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <button onclick="buscarAnimes()">Buscar Animes</button>
+  <div id="mostrarAnimes"></div>
+
+  <script src="animes.js"></script>
+</body>
+</html>
